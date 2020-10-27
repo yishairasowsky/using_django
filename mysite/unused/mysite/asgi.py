@@ -14,7 +14,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
 django.setup()
 
 from django.core.asgi import get_asgi_application
-from websocket.middleware import websockets
+# from websocket.middleware import websockets
 
 
 

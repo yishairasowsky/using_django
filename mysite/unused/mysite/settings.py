@@ -31,7 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'polls.apps.PollsConfig',
+    # 'mysite.websocket',
+    # 'websocket',
+    # 'mysite.users',
+    # 'users',
+    # 'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -108,6 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # LANGUAGE_CODE = 'he'
 LANGUAGE_CODE = 'en-us'
 
+# TIME_ZONE = 'EET'
 TIME_ZONE = 'EET'
 # TIME_ZONE = 'UTC'
 

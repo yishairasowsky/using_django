@@ -25,3 +25,8 @@ urlpatterns = [
     # path('websocket/', include('websocket.urls')),
     path('admin/', admin.site.urls),
 ]
+
+# urlpatterns = [
+#     path("", views.IndexView.as_view()),
+#     websocket("ws/", views.websocket_view),
+# ]
