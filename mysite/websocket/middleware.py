@@ -9,3 +9,4 @@ def websockets(app):
             return
         await app(scope, receive, send)
     return asgi
+
